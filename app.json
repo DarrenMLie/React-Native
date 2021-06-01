@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "finalprojectR",
-    "slug": "finalprojectR",
+    "name": "Pipe",
+    "slug": "pipe",
     "platforms": [
       "ios",
       "android",
@@ -9,11 +9,11 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/PipeLogoIcon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/PipeSplash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1377E9"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +22,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.darrenlie.pipe",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.darrenlie.pipe",
+      "versionCode": 1
     }
   }
 }
