@@ -12,7 +12,7 @@
     "icon": "./assets/PipeLogoIcon.png",
     "splash": {
       "image": "./assets/PipeSplash.png",
-      "resizeMode": "contain",
+      "resizeMode": "center",
       "backgroundColor": "#1377E9"
     },
     "updates": {

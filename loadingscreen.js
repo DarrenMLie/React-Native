@@ -21,6 +21,6 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     loadinglogo: {
-        resizeMode: 'contain'
+        resizeMode: 'center'
     }
   })
